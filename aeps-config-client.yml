@@ -1,2 +1,9 @@
 server.port : 8000
 welcome.message: this is from config server
+---
+
+spring:
+  profiles: dev
+  
+
+welcome.message: this is from config server dev
