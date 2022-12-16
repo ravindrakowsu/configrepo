@@ -1,2 +1,9 @@
 server.port : 8000
 welcome.message: this is from config server
+---
+
+spring:
+  profiles: dev
+  
+server.port : 8585
+welcome.message: this is from config server ${spring.profile.active}
